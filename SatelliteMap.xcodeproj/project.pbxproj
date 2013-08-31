@@ -23,6 +23,12 @@
 		FF9DC70117D18B1000C47A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DC6DC17D18B0F00C47A33 /* Foundation.framework */; };
 		FF9DC70917D18B1000C47A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9DC70717D18B1000C47A33 /* InfoPlist.strings */; };
 		FF9DC70C17D18B1000C47A33 /* SatelliteMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9DC70B17D18B1000C47A33 /* SatelliteMapTests.m */; };
+		FF9DC71917D18B4300C47A33 /* gradation2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DC71517D18B4300C47A33 /* gradation2.png */; };
+		FF9DC71A17D18B4300C47A33 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DC71617D18B4300C47A33 /* icon.png */; };
+		FF9DC71B17D18B4300C47A33 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DC71717D18B4300C47A33 /* pin.png */; };
+		FF9DC71C17D18B4300C47A33 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DC71817D18B4300C47A33 /* sky.png */; };
+		FF9DC71E17D18FA600C47A33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DC71D17D18FA600C47A33 /* MapKit.framework */; };
+		FF9DC72017D1A85600C47A33 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DC71F17D1A85600C47A33 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,12 @@
 		FF9DC70817D18B1000C47A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF9DC70A17D18B1000C47A33 /* SatelliteMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatelliteMapTests.h; sourceTree = "<group>"; };
 		FF9DC70B17D18B1000C47A33 /* SatelliteMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatelliteMapTests.m; sourceTree = "<group>"; };
+		FF9DC71517D18B4300C47A33 /* gradation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradation2.png; sourceTree = "<group>"; };
+		FF9DC71617D18B4300C47A33 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF9DC71717D18B4300C47A33 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		FF9DC71817D18B4300C47A33 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		FF9DC71D17D18FA600C47A33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF9DC71F17D1A85600C47A33 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9DC72017D1A85600C47A33 /* CoreLocation.framework in Frameworks */,
+				FF9DC71E17D18FA600C47A33 /* MapKit.framework in Frameworks */,
 				FF9DC6DB17D18B0F00C47A33 /* UIKit.framework in Frameworks */,
 				FF9DC6DD17D18B0F00C47A33 /* Foundation.framework in Frameworks */,
 				FF9DC6DF17D18B0F00C47A33 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +101,10 @@
 		FF9DC6CE17D18B0F00C47A33 = {
 			isa = PBXGroup;
 			children = (
+				FF9DC71517D18B4300C47A33 /* gradation2.png */,
+				FF9DC71617D18B4300C47A33 /* icon.png */,
+				FF9DC71717D18B4300C47A33 /* pin.png */,
+				FF9DC71817D18B4300C47A33 /* sky.png */,
 				FF9DC6E017D18B0F00C47A33 /* SatelliteMap */,
 				FF9DC70417D18B1000C47A33 /* SatelliteMapTests */,
 				FF9DC6D917D18B0F00C47A33 /* Frameworks */,
@@ -106,6 +124,8 @@
 		FF9DC6D917D18B0F00C47A33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF9DC71F17D1A85600C47A33 /* CoreLocation.framework */,
+				FF9DC71D17D18FA600C47A33 /* MapKit.framework */,
 				FF9DC6DA17D18B0F00C47A33 /* UIKit.framework */,
 				FF9DC6DC17D18B0F00C47A33 /* Foundation.framework */,
 				FF9DC6DE17D18B0F00C47A33 /* CoreGraphics.framework */,
@@ -236,6 +256,10 @@
 				FF9DC6EF17D18B0F00C47A33 /* Default@2x.png in Resources */,
 				FF9DC6F117D18B0F00C47A33 /* Default-568h@2x.png in Resources */,
 				FF9DC6F417D18B0F00C47A33 /* MainStoryboard.storyboard in Resources */,
+				FF9DC71917D18B4300C47A33 /* gradation2.png in Resources */,
+				FF9DC71A17D18B4300C47A33 /* icon.png in Resources */,
+				FF9DC71B17D18B4300C47A33 /* pin.png in Resources */,
+				FF9DC71C17D18B4300C47A33 /* sky.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
