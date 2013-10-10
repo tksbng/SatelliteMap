@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF8DCC5B17EC31F3000A49B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8DCC5A17EC31F3000A49B0 /* Images.xcassets */; };
 		FF9DC6DB17D18B0F00C47A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DC6DA17D18B0F00C47A33 /* UIKit.framework */; };
 		FF9DC6DD17D18B0F00C47A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DC6DC17D18B0F00C47A33 /* Foundation.framework */; };
 		FF9DC6DF17D18B0F00C47A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DC6DE17D18B0F00C47A33 /* CoreGraphics.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF8DCC5A17EC31F3000A49B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF9DC6D717D18B0F00C47A33 /* SatelliteMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatelliteMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9DC6DA17D18B0F00C47A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF9DC6DC17D18B0F00C47A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +144,7 @@
 				FF9DC6F217D18B0F00C47A33 /* MainStoryboard.storyboard */,
 				FF9DC6F517D18B0F00C47A33 /* ViewController.h */,
 				FF9DC6F617D18B0F00C47A33 /* ViewController.m */,
+				FF8DCC5A17EC31F3000A49B0 /* Images.xcassets */,
 				FF9DC6E117D18B0F00C47A33 /* Supporting Files */,
 			);
 			path = SatelliteMap;
@@ -227,6 +230,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Takeshi Bingo";
+				TargetAttributes = {
+					FF9DC6D617D18B0F00C47A33 = {
+						DevelopmentTeam = JG2S9R2SZ9;
+					};
+				};
 			};
 			buildConfigurationList = FF9DC6D217D18B0F00C47A33 /* Build configuration list for PBXProject "SatelliteMap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -252,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9DC6E517D18B0F00C47A33 /* InfoPlist.strings in Resources */,
+				FF8DCC5B17EC31F3000A49B0 /* Images.xcassets in Resources */,
 				FF9DC6ED17D18B0F00C47A33 /* Default.png in Resources */,
 				FF9DC6EF17D18B0F00C47A33 /* Default@2x.png in Resources */,
 				FF9DC6F117D18B0F00C47A33 /* Default-568h@2x.png in Resources */,
@@ -405,10 +414,15 @@
 		FF9DC71017D18B1000C47A33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SatelliteMap/SatelliteMap-Prefix.pch";
 				INFOPLIST_FILE = "SatelliteMap/SatelliteMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -416,10 +430,15 @@
 		FF9DC71117D18B1000C47A33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SatelliteMap/SatelliteMap-Prefix.pch";
 				INFOPLIST_FILE = "SatelliteMap/SatelliteMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -477,6 +496,7 @@
 				FF9DC71117D18B1000C47A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF9DC71217D18B1000C47A33 /* Build configuration list for PBXNativeTarget "SatelliteMapTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +505,7 @@
 				FF9DC71417D18B1000C47A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
